@@ -250,7 +250,7 @@ main {
     font-size: 1.6rem;
     line-height: 1.9rem;
     color: #b5b0ac;
-    text-align: left;
+    text-align: left    ;
 }
 
 .comision__container div .table-right {
@@ -272,4 +272,89 @@ main {
     font-size: 1.2rem;
     line-height: 1.4rem;
     color: var(--warm-black);
+}
+
+.main__product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1.6rem;
+    background-color: var(--warm-black);
+}
+
+.product-detail__batata-logo {
+    position: absolute;
+    top: -1.2rem;
+    left: calc(50% - 2.02rem);
+    width: 4.05rem;
+    height: 2.4rem;
+    background-image: url('../assets/img/batabitiso.svg');
+}
+.product-detail__title {
+    margin: 4.4rem auto 0;
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    text-align: center;
+}
+.product-detail__title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail__title p {
+    margin-top: 2.4rem;
+    margin-bottom: 2.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product__cards-container {
+    margin: 0 auto;
+    height: auto;
+}
+.product__detail-card {
+    margin: 1.6rem 0;
+    padding: 1.4rem 1.6rem 2rem;
+    width: 100%;
+    height: 15.2rem;
+    background-color: #282623;
+    border-radius:  0.4rem;
+}
+.icon-cards {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product__detail-card .clock-icon {
+    background-image: url('../assets/icons/clock.svg');
+}
+.dollar-sign-icon {
+    background-image: url('../assets/icons/dollar-sign.svg');
+}
+.eye-icon {
+    background-image: url('../assets/icons/eye.svg');
+}
+.check-circle-icon {
+    background-image: url('../assets/icons/check-circle.svg');
+}
+.product__card-title {
+    margin-top: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product__card-body {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
