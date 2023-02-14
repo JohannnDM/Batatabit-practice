@@ -318,16 +318,17 @@ main {
 }
 .product__detail-card {
     margin: 1.6rem 0;
-    padding: 1.4rem 1.6rem 2rem;
+    padding: 1.4rem 2rem 2rem 1.6rem;
     width: 100%;
     height: 15.2rem;
     background-color: #282623;
     border-radius:  0.4rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 .icon-cards {
     display: inline-block;
-    width: 2rem;
-    height: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
