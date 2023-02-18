@@ -28,6 +28,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     position: relative;
@@ -136,6 +137,9 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+.tables-slider {
+
+}
 .currency__table {
     width: 70%;
     min-width: 23.5rem;
@@ -224,6 +228,8 @@ main {
 
 .comision__container {
     display: grid;
+    width: 18rem;
+    margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 0.1rem;
@@ -376,4 +382,124 @@ main {
     line-height: 2.6rem;
     text-align: center;
     color: var(--just-white);
+}
+
+.main__plans-container {
+    width: 100%;
+    min-width: 32rem;
+    padding: 6.4rem 0 ;
+    height: auto;
+    background-color: #faf8f7;
+}
+.plans-title {
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+}
+.plans-title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--warm-black);
+}
+.plans-title p {
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #757575;
+}
+.plans-conainer--slider {
+    display: flex;
+    height: auto;
+    gap: 0.8rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    margin: 5rem auto 0rem;
+    min-width: 19rem;
+    max-width: 19rem;
+
+    height: 24rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    background-color: var(--just-white);
+}
+.plans-container--card .recommended {
+    position: absolute;
+    top: -1.5rem;
+    left: calc(50% - 5rem);
+    padding: 0.7rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    font-weight: bold;
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    border-radius: 0.8rem;
+}
+.plan-card-title {
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #000000;
+}
+.plan-card--price {
+    margin-top: 0.8rem;
+    font-family: 'Inter';
+    font-size: 5.2rem;
+    font-weight: bold;
+    letter-spacing: -0.5rem;
+    /* line-height: 6.3rem; */
+    color: #000000;
+}
+.plan-card--price sup {
+    width: auto;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    letter-spacing: 0.5rem;
+    vertical-align:  2.7rem;
+}
+.plan-card--saving {
+    font-family: 'Inter';
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.45;
+    color: #757575;
+}
+.plan-card--ca {
+    margin-top: 1.6rem;
+    width: 15rem;
+    height: 4.8rem;
+    font-family: 'DM Sans';
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.82rem;
+    border: 0.2rem solid var(--bitcoin-orange);
+    border-radius: 0.4rem;
+    background-color: var(--off-white);
+    color: var(--warm-black);
+}
+.plan-card--ca span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
 }
