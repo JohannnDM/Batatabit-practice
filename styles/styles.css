@@ -503,3 +503,26 @@ main {
     background-image: url(../assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
 }
+
+.footer-section {
+    display: flex;
+    height: 15rem;
+    background-color: var(--bitcoin-orange);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-section section ul li {
+    margin: 0.8rem;
+    list-style: none;
+}
+.footer-section section ul li a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    text-decoration: none;
+}
+.footer-section section image {
+    height: 5rem;
+    width: 6.4rem;
+}
