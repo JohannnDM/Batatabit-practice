@@ -1,0 +1,17 @@
+.tables-slider {
+    display: flex;
+    width: 50rem;
+}
+.product__cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 68rem;
+    margin: 0 auto;
+}
+.bitcoin-img-container {
+    background-image: url(../assets/img/bitcoinbaby2x.png);
+}
+.plans-conainer--slider {
+    justify-content: center;
+}
